@@ -1,0 +1,73 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 27e40876-02ca-4f77-97c9-bba259b80fb8)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "LS32-CPU ISA Motherboard" (at 181.61 175.26 0)
+    (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
+    (uuid 0bf33f4b-d6d2-4b53-80e2-a15a9de2dfcf)
+  )
+
+  (sheet (at 204.47 38.1) (size 33.02 72.39) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 330a64af-a99e-4466-a3ae-b985208ebe5d)
+    (property "Sheetname" "SysPower" (at 204.47 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "syspower.kicad_sch" (at 204.47 111.0746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "LS32_ISA_MB"
+        (path "/27e40876-02ca-4f77-97c9-bba259b80fb8" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 27.94 43.18) (size 30.48 91.44) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 54c104f5-8739-4932-ae4c-4f3641cfed38)
+    (property "Sheetname" "CPU_To_NB" (at 27.94 42.4684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "cpu_to_nb.kicad_sch" (at 27.94 135.2046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "LS32_ISA_MB"
+        (path "/27e40876-02ca-4f77-97c9-bba259b80fb8" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 104.14 41.91) (size 34.29 95.25) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a07e1188-8491-44f3-a1fe-0041d6d6df6e)
+    (property "Sheetname" "SuperIO_ISA" (at 104.14 41.1984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SuperIO_ISA.kicad_sch" (at 104.14 137.7446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "字段 2" "" (at 104.14 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "LS32_ISA_MB"
+        (path "/27e40876-02ca-4f77-97c9-bba259b80fb8" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LS32_ISA_MB_Library")(type "KiCad")(uri "${KIPRJMOD}/LS32_ISA_MB_Library.kicad_sym")(options "")(descr ""))
+)
